@@ -7,7 +7,7 @@ const {
 router
   .route('/')
   .get(getAllUsers)
-  //.post(createUser);
+  .post(createUser);
 
 
 
